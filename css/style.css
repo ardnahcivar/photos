@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background: black;
+    z-index: 1;
+}
+
+
+main{
+    position: absolute;
+    top: 60px;
+    height: 90%;
+}
+
+main .title{
+
+}
+
+main .container{
+   display: flex;
+   width: 100vw;
+}
+
+.container .col{
+    width: 33%;
+}
+
+#img-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+#img-list-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#img-list-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#img-list li{
+    display: inline-block;
+    margin: 1em;
+}
+
+
+#img-list-1 li{
+    display: inline-block;
+    margin: 1em;
+}
+
+#img-list-2 li{
+    display: inline-block;
+    margin: 1em;
+}
+#img-list li .image-elem{
+    /*height: 100px;*/
+    /*width: 400px;
+    height: 260px;*/
+}
+
+footer{
+
+}

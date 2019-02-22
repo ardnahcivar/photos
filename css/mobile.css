@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    font-size: 100%;
+}
+
+
+.container{
+    /*background: red;*/
+}
+
+#img-list,#img-list-1,#img-list-2{
+    display: inline-block;
+    padding: 0;
+    list-style-type: none;
+}
+
+#img-list li,#img-list-1 li,#img-list-2 li{
+    display: inline-block;
+    margin: 1em 0;
+}
